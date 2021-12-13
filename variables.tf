@@ -35,3 +35,14 @@ variable "AWS_SSH_KEY_NAME" {
   description = "Name of the SSH keypair to use in AWS."
 }
 
+
+
+variable "aws_account" {
+  description = "AWS credentials for this spoke account"
+  sensitive   = true
+  type = object({
+    region     = string
+    access_key = optional(string)
+    secret_key = optional(string)
+  })
+}
