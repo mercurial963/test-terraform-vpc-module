@@ -18,15 +18,5 @@ terraform {
 //   }
 // }
 
-// terraform {
-//   backend "s3" {
-//     bucket         = "test-bucket-for-tf-state"
-//     key            = "dev/terraform.tfstate"
-//     region         = "ap-southeast-1"
-//     encrypt        = true
-//     // dynamodb_table = "test-dynamodb-table-for-tf-state"
-//     access_key = "AKIAUC7QGW377WKZMN5E"
-//     secret_key = "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"
-//   }
-// }
+
   
